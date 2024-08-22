@@ -1,6 +1,12 @@
+import Header from "./Header";
+import Footer from "./Footer";
 function Menu(){
     return(
-        <h1>Menu</h1>
+        <>
+            <Header/>
+            <h1>Menu</h1>
+            <Footer/>
+        </>
     );
 }
 

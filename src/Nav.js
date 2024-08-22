@@ -2,10 +2,10 @@ import {NavLink} from "react-router-dom";
 function Nav(){
     return(
         <>
-            <nav>
+            <nav className="style3">
                 <ul>
                     <li>
-                        <NavLink to="/home">Home</NavLink>
+                        <NavLink to="/">Home</NavLink>
                     </li>
                     <li>
                         <NavLink to="/about">About</NavLink>

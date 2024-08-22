@@ -1,6 +1,13 @@
+import Header from "./Header";
+import Footer from "./Footer";
 function Reservations(){
     return(
-        <h2>Reservations</h2>
+        <>
+            <Header/>
+            <h2>Reservations</h2>
+            <Footer/>
+        </>
+
     );
 }
 

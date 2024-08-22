@@ -1,14 +1,13 @@
 import Header from "./Header";
 import Footer from "./Footer";
-function Order () {
+function About(){
     return(
         <>
             <Header/>
-            <h1>Order Online</h1>
+            <h2>About</h2>
             <Footer/>
         </>
-
     );
 }
 
-export default Order;
+export default About;
