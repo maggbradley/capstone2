@@ -17,15 +17,31 @@
 
 .style2{
     grid-area: head;
-    background-color: green;
+    background-color: #FBDAB8;
 }
 
 .style3{
     grid-area: nav;
-    background-color: red;
+    background-color: #495E57;
+    padding: 5%;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .style4{
     grid-area: footer;
-    background-color: blue;
+    background-color: #FBDAB8;
+}
+
+#navbar{
+    list-style: none;
+    width: auto;
+    white-space: nowrap;
+}
+
+#linkstyle{
+    margin-right: 7%;
+    margin-left: 7%;
+    justify-content: center;
+    display: inline-block;
 }
