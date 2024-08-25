@@ -23,9 +23,7 @@
 .style3{
     grid-area: nav;
     background-color: #495E57;
-    padding: 5%;
-    justify-items: stretch;
-    align-items: stretch;
+
 }
 
 .style4{
@@ -35,7 +33,6 @@
 
 #navbar{
     list-style: none;
-    width: auto;
     white-space: nowrap;
 }
 

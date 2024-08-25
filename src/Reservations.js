@@ -1,10 +1,11 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import BookingForm from"./BookingForm";
 function Reservations(){
     return(
         <>
             <Header/>
-            <h2>Reservations</h2>
+            <BookingForm/>
             <Footer/>
         </>
 
